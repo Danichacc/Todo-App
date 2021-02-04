@@ -1,0 +1,38 @@
+.task-list {
+    font-size: 18px;
+}
+
+.task-list > div {
+    display: flex;
+    padding: 5px;
+}
+
+.task-list input {
+    margin-right: 5px;
+}
+
+.task-list button {
+    border-radius: 3px;
+}
+
+.button-edit {
+    background-color: #ffca2c;
+    border-color: #ffc720;
+}
+
+.button-delete {
+    background-color: #bb2d3b;
+    border-color: #b02a37;
+    color: #ffffff;
+}
+
+.finished, .unfinished {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.finished {
+    text-decoration: line-through;
+}
